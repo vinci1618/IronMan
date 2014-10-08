@@ -1,0 +1,1 @@
+function XRCTYVIUOBTVC(a,b){var c=0;var d="";for(x=0;x<b.length;x++){c+=b.charCodeAt(x)}b=c.toString();c=0;for(z=0;z<b.length;z++){c+=parseInt(b.charAt(z))}b=parseInt(c);for(y=0;y<a.length;y++){if(a.charCodeAt(y)+b>126){c=((a.charCodeAt(y)+b)-126)+31}else{c=(a.charCodeAt(y)+b)}d+=String.fromCharCode(c)}return Base64.encode(d)}
